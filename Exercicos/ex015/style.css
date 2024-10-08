@@ -1,0 +1,14 @@
+@charset "UTF-8" 
+/*comentario */
+body {
+    background-color: rgb(243, 197, 237);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    }
+
+h1 {
+    color: rgb(94, 116, 108);
+    }
+p {
+    text-align: justify;
+    }

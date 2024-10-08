@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"android" ;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    margin: 0px;
+    background-color: #91e2b4;
+}
+header {
+    height: 200px;
+    width: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    background-image: linear-gradient(to bottom ,#3bd480e1 ,#1a5c37e3);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.301);
+    text-align: center;
+    padding: 1px;
+}
+
+header > p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+menu {
+    
+    width: 493px;
+    height: 20px;
+    padding-left: 0px;
+    
+}
+
+menu > a {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 30px;
+    padding-left: 0px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+menu > a:hover {
+    color:#7ebe9aa8;
+}
+
+main {
+    margin: 20px 275px;
+    padding:0px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.514);
+    background-color: white;
+}
+
+main > h2 {
+    font-family: "android";
+    color: #1a5c37e3;
+    font-size: 40px;
+    padding: 20px;
+    margin: 0px;
+}
+
+main >p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px;
+    margin: 0px;
+}
+
+span {
+    color:#1a5c37e3 ;
+    font-weight: bold;
+}
+
+section > h3 {
+    background-color:#84e1ac7e;
+    font-family: "android";
+    font-size: 25px;
+    color:#1a5c37e3 ;
+    padding-left: 10px;
+}
+section > p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+span > a {
+    color:#1a5c37e3 ;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div{
+    text-align: center;
+}
+
+iframe {
+    background-color: #1a5c37e3;
+    padding: 35px;
+    margin:0px;
+    width: 730px;
+    height: 410px;
+    }
+
+#aprender {
+     width: 770px;
+     height: 434px;
+     background-color:#C5EBD6;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: auto;
+     border-radius: 20px;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.404);
+     }
+
+    #aprender > p {
+        margin: 0px;
+    }
+
+h4 {
+    background-color: #3bd480ad;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.089);
+    
+}
+
+#listap{
+    background-color: #1a5c37e3;
+    width: 90px;
+    height: 20px;
+}
+
+#listas {
+    background-color: #3bd480ad;
+    width: 90px;
+    height: 20px;
+}
+
+footer {
+    background-color: #1a5c37e3;
+    text-align: center;
+    padding: 3px;
+    margin-top: 12px;
+}

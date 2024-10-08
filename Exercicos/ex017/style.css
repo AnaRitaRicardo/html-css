@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    font-family:sans-serif;
+    font-size: 16px;
+     /*16px geralmente = 1em*/
+     /* font-weight: ; ---> é o peso da fonte, o que faz a fonte ser magra, media ou gorda */ 
+     /* lighter, normal, bold, bolder*/
+     font-style: oblique; /* estilo italico ou normal*/
+    }
+    
+    /*
+    Em vez de colocar:
+    font-family: `work sans´, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+
+    podemos fazer isto:
+    
+    font: italic bolder 3em `work sans´, sans-serif; 
+    */
+
+    h1 {
+        font: italic bolder 3em sans-serif
+        
+
+        /* text-decoration: underline----> seria sublinhado mas nem todas as fontes suportam*/
+
+        /*medidas Absolutas:
+        cm, mm, in, pt, px, pc*/
+
+        /*Medidas Relativas:
+        em, ex, rem, vh,%*/
+    }
+
+
+    h2 {
+        font: 2em sans-serif;
+    }
+    p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
